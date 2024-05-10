@@ -4,10 +4,7 @@ import (
 	"time"
 
 	"github.com/AstroStreakNet/database/pkg/config"
-	"github.com/jinzhu/gorm"
 )
-
-var db *gorm.DB
 
 type Analytics struct {
 	AnalyticsID       int       `gorm:"primaryKey" json:"analyticsID"`

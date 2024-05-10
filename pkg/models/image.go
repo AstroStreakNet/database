@@ -4,10 +4,9 @@ import (
 	"time"
 
 	"github.com/AstroStreakNet/database/pkg/config"
-	"github.com/jinzhu/gorm"
 )
 
-var db *gorm.DB
+//var db *gorm.DB
 
 type Image struct {
 	ImageID           int       `gorm:"primaryKey;AUTO_INCREMENT" json:"imageID"`

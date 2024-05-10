@@ -4,10 +4,7 @@ import (
 	"time"
 
 	"github.com/AstroStreakNet/database/pkg/config"
-	"github.com/jinzhu/gorm"
 )
-
-var db *gorm.DB
 
 type Authentication struct {
 	AuthID       int        `gorm:"primaryKey;AUTO_INCREMENT" json:"authID"`
