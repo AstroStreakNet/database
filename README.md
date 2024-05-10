@@ -33,9 +33,10 @@ The AstroStreakNet Database Management System is a backend system designed to ma
     ```
 
 ## API Endpoints
-
+    
 ### Users
 
+- **GET /user/**: Get all users.
 - **GET /user/:userID**: Get user details by user ID.
 - **POST /user/**: Create a new user.
 - **PUT /user/:userID**: Update user details.
@@ -43,6 +44,7 @@ The AstroStreakNet Database Management System is a backend system designed to ma
 
 ### Images
 
+- **GET /image/**: Get all images.
 - **GET /image/:imageID**: Get image details by image ID.
 - **POST /image/**: Create a new image.
 - **PUT /image/:imageID**: Update image details.
@@ -50,6 +52,7 @@ The AstroStreakNet Database Management System is a backend system designed to ma
 
 ### Analytics
 
+- **GET /analytics/**: Get all analytics data.
 - **GET /analytics/:analyticsID**: Get analytics data by analytics ID.
 - **POST /analytics/**: Create new analytics data.
 - **PUT /analytics/:analyticsID**: Update analytics data.
@@ -57,6 +60,8 @@ The AstroStreakNet Database Management System is a backend system designed to ma
 
 ### Authentication
 
+- **GET /authentication/**: Get all authentication sessions.
 - **POST /authentication/**: Create a new authentication session.
 - **GET /authentication/:authID**: Get authentication details by authentication ID.
 - **DELETE /authentication/:authID**: Delete an authentication session by authentication ID.
+
