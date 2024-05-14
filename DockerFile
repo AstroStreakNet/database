@@ -2,8 +2,7 @@ FROM golang:latest
 
 WORKDIR /go/src/app
 COPY . .
-WORKDIR /go/src/app/cmd/main
-RUN mkdir -p /go/src/app/cmd/main
+WORKDIR /go/src/app/cmd
 RUN go build -o main .
 EXPOSE 3306
 CMD ["./main"]
