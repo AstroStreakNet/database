@@ -20,6 +20,7 @@ type Image struct {
 	UserID            int       `json:"userID"`
 	AllowPublic       bool      `json:"allowPublic"`
 	AllowML           bool      `json:"allowML"`
+    Contains          string    `json:"contains"`
 }
 
 func init() {
@@ -54,3 +55,4 @@ func DeleteImage(ID int64) error {
 	}
 	return nil
 }
+
